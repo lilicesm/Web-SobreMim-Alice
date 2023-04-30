@@ -5,8 +5,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
-p{
-    text-align: left;
+div{
+    display: inline-block;
 }
 h1{
     color: deeppink;
@@ -24,7 +24,8 @@ mark {
 }
 .botao1{
     color: rgb(170, 237, 152);
-    margin-left: 25%;
+    margin-left: 150%;
+    border-left: 40px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     padding: 5px;
@@ -33,9 +34,18 @@ mark {
 .botao1:hover{
     background-color: deeppink;
 }
+.botao1-1{
+    color: rgb(170, 237, 152);
+    margin-left: 400px;
+    border-radius: 10px;
+    background-color: deeppink;
+    padding: 5px;
+    text-decoration: none;
+    cursor: default;
+}
 .botao2{
     color: rgb(170, 237, 152);
-    margin-left: 75%;
+    margin-left: 600px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     padding: 5px;
@@ -43,4 +53,18 @@ mark {
 }
 .botao2:hover{
     background-color: deeppink;
+}
+.botao2-1{
+    color: rgb(170, 237, 152);
+    margin-left: 30%;
+    margin right: 30%;
+    border-left: 40px;
+    border-radius: 10px;
+    background-color: deeppink;
+    padding: 5px;
+    text-decoration: none;
+    cursor: default;
+}
+div{
+    display: inline-block;
 }

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(170, 237, 152);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+p{
+    text-align: left;
+}
+h1{
+    color: deeppink;
+    border: 2px solid rgb(201, 255, 185);
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(201, 255, 185);
+    margin-inline: 50px;
+}
+h3{
+    color: deeppink;
+}
+mark {
+    background-color: deeppink;
+}
+.botao1{
+    color: rgb(170, 237, 152);
+    margin-left: 25%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    text-decoration: none;
+}
+.botao1:hover{
+    background-color: deeppink;
+}
+.botao2{
+    color: rgb(170, 237, 152);
+    margin-left: 75%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    text-decoration: none;
+}
+.botao2:hover{
+    background-color: deeppink;
+}
